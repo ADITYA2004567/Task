@@ -1,0 +1,72 @@
+.wrapper {
+  min-height: 100vh;
+  background: #f8f7f4;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 500px;
+}
+
+.heading {
+  font-size: 24px;
+}
+
+.sub {
+  color: gray;
+}
+
+.inputRow {
+  display: flex;
+  gap: 10px;
+}
+
+.input {
+  flex: 1;
+  padding: 8px;
+}
+
+.addBtn {
+  background: blue;
+  color: white;
+  border: none;
+  padding: 8px;
+}
+
+.filters {
+  margin-top: 10px;
+}
+
+.filterBtn {
+  margin-right: 5px;
+}
+
+.activeFilter {
+  font-weight: bold;
+}
+
+.taskItem {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.doneText {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.offlineBanner {
+  background: orange;
+  padding: 5px;
+}
+
+.onlineBanner {
+  background: lightgreen;
+  padding: 5px;
+}
